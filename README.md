@@ -14,3 +14,11 @@ FlowDocumentReader：提供多種檢視模式（滾動、分頁、雙頁），�
 FlowDocumentScrollViewer：簡單的滾動檢視，類似網真瀏覽器。
 FlowDocumentPageViewer：以單頁固定大小的模式顯示內容。
 RichTextBox：一個可編輯的控制項，其內容以 FlowDocument的形式儲存。
+
+固定文件（FixedDocument）通常用於創建 XPS （XML Paper Specification）文件，確保列印輸出的精確性。
+• FixedDocument：固定文件的根容器，包含 PageContent 元素。
+• PpgeContent：代表文檔中的一真•包含一個 FixedPage 元素•
+• FixedPage：實際繪製內容的容器，內容元素使用絕對座標定位。
+• 比較Rich TextBox, TextBlock, TextBox, Label的差異
+• ToggleButton 最主要的特點是它擁有一個持久的、可以切換（Toggle）的狀態．不像標準的 Button 那樣•按下後就只是觸發一次 Click 事件然後返回原始狀態。
+• WPF Command:WPF 的命令系統是一個強大的設計模式，旨在為應用程式中的動作.
